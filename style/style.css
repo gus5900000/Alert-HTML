@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style simple pour la présentation */
+body {
+    /* Utilise une police sans-serif pour un style plus moderne et lisible */
+    font-family: Arial, sans-serif;
+
+    /* Limite la largeur de la page à 600px pour éviter que le texte s'étale trop */
+    max-width: 600px;
+
+    /* Centrer le contenu de la page horizontalement */
+    margin: 20px auto;
+
+    /* Ajoute un espace autour du contenu */
+    padding: 20px;
+}
+button {
+    /* Ajoute un espace intérieur pour agrandir le bouton */
+    padding: 10px 20px;
+
+    /* Ajoute un petit espace entre chaque bouton */
+    margin: 5px;
+
+    /* Change le curseur pour indiquer que c'est un élément cliquable */
+    cursor: pointer;
+}
